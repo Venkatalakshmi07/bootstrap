@@ -126,5 +126,19 @@ li{
     background-color: blueviolet;
     transition: all 0.5s ease-in-out;
 }
+.hidehead{
+    display: none;
+    position: relative;
+}
+.hidehead-active{
+    display: block;
+}
+.x-button{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
 
 
